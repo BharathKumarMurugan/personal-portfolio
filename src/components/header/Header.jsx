@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "boxicons";
+
 import "./header.css";
 
 const Header = () => {
