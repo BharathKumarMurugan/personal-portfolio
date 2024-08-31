@@ -83,10 +83,10 @@ img {
 .button:hover {
   background-color: var(--title-color-dark);
 }
-.button_icon {
+.button__icon {
   margin-left: var(--mb-0-5);
 }
-.button_flex {
+.button__flex {
   display: inline-flex;
   align-items: center;
 }
