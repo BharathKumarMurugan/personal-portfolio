@@ -79,6 +79,12 @@
 
 .home__scroll {
     margin-left: 9.25rem;
+    justify-self: center;
+}
+
+.home__scroll-button {
+    cursor: default;
+    pointer-events: none;
 }
 
 .home__scroll-name {
@@ -91,6 +97,19 @@
 .home__scroll-arrow {
     font-size: 1.25rem;
     color: var(--title-color);
+    animation: scroll_down 2s ease-in-out infinite 2s;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+@keyframes scroll_down {
+    0% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
 }
 /* responsive */
 /* For large devices */
